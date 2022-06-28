@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/depositMethod.css" />
+    <title>AlertSignalNation</title>
+  </head>
+  <body>
+    <!-- ============= Navbar ========== -->
+    <section class="navbar-top">
+      <div class="container">
+        <div class="navbar-left">
+          <img src="/assets/vector/hamburger.svg" alt="hamburger" class="hamburger" />
+          <img src="/assets/vector/Notification.svg" alt="Notification" class="notification" />
+          <a href="/profile.html"> <img src="/assets/image/avatar.png" alt="avatar" class="avatar" /></a>
+        </div>
+        <div class="navbar-right"></div>
+      </div>
+    </section>
+    <!-- ======= End Navbar ======== -->
+
+    <section class="jumbotron">
+      <div class="container">
+        <div class="content">
+          <p class="writer">Insurance Deposit</p>
+          <hr />
+          <h1 class="title mt-3 mb-3">NOTE</h1>
+          <label for="input" class="label">Amount:</label>
+          <br />
+          <input type="text" name="input" class="input" placeholder="Amount" />
+          <div class="dropdown mb-3 mt-4">
+            <button class="btn btn-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Payment method <span class="dropdown-toggle"></span></button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Bitcoin</a></li>
+              <li><a class="dropdown-item" href="#">Litecoin</a></li>
+              <li><a class="dropdown-item" href="#">Ethereum</a></li>
+              <li><a class="dropdown-item" href="#">Bitcoincash</a></li>
+              <li><a class="dropdown-item" href="#">Skrill</a></li>
+              <li><a class="dropdown-item" href="#">Bank Transfer</a></li>
+            </ul>
+          </div>
+          <label for="input" class="label">Uplod Your Proof of Payment:</label>
+          <br />
+          <div class="file">
+            <input class="fileUplod input" type="file" />
+          </div>
+          <label for="input" class="label">Description</label>
+          <br />
+          <textarea name="name" cols="30" rows="3" class="textarea" placeholder="Naration"></textarea>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+            <label class="form-check-label" for="flexCheckDefault"> Agree to Terms & Conditions? </label>
+          </div>
+          <button type="button" class="btn-main">Submit</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/contactSupport.css" />
+    <title>AlertSignalNation</title>
+  </head>
+  <body>
+    <!-- Responsive Navbar -->
+    <div class="navbar-responsive">
+      <div class="container">
+        <nav class="navbar">
+          <div class="navbarBrand mt-3">
+            <a href="/index.html"><img src="/assets/image/logoBrand.png" alt="logo" /></a>
+            <img src="/assets/vector/hamburger.svg" alt="hamburger" class="hamburger" id="btn" />
+          </div>
+          <div class="navbar-content">
+            <div class="navbarflex">
+              <img src="/assets/image//avatar.png" alt="avatar" class="profileAvatar" />
+              <h1 class="titleUser">Akpezi Hitman</h1>
+            </div>
+            <div class="desc-email">
+              <p class="desc">Hitman@gmail.com</p>
+            </div>
+
+            <div class="userInfo">
+              <div class="username">
+                <p class="text-light">Username :</p>
+                <p class="text-light desc">Akpezi Hitman</p>
+              </div>
+              <div class="username">
+                <p class="text-light">Registration Date: :</p>
+                <p class="text-light desc">May-22-2022</p>
+              </div>
+              <div class="username">
+                <p class="text-light">Last Access: :</p>
+                <p class="text-light desc">May-22-2022 <span class="text-green">5:00AM</span></p>
+              </div>
+              <div class="username">
+                <p class="text-light">Verification Status: :</p>
+                <p class="text-light desc"><span class="text-green">VERIFIED</span></p>
+              </div>
+              <div class="username">
+                <p class="text-light">Account Status: :</p>
+                <p class="text-light desc"><span class="text-green">PREMIUM</span></p>
+              </div>
+            </div>
+            <div class="nav-menu">
+              <h1 class="title">Menu</h1>
+              <a href="/index.html">
+                <div class="nav-link">
+                  <p class="text-light">Dashboard</p>
+                </div>
+              </a>
+              <a href="/accountVerification.html">
+                <div class="nav-link">
+                  <p class="text-light">Verify Account</p>
+                </div>
+              </a>
+              <a href="/deposit.html">
+                <div class="nav-link">
+                  <p class="text-light">Deposit</p>
+                </div>
+              </a>
+              <a href="/withdrawal.html ">
+                <div class="nav-link">
+                  <p class="text-light">Withdrawal</p>
+                </div>
+              </a>
+              <a href="/signalActivation.html">
+                <div class="nav-link">
+                  <p class="text-light">Signal Activation</p>
+                </div>
+              </a>
+              <a href="/insurance.html">
+                <div class="nav-link">
+                  <p class="text-light">Insurance Deposit</p>
+                </div>
+              </a>
+              <a href="/accountUpgrade.html">
+                <div class="nav-link">
+                  <p class="text-light">Upgrade Account</p>
+                </div>
+              </a>
+              <a href="/earningHistory.html">
+                <div class="nav-link">
+                  <p class="text-light">Earning History</p>
+                </div>
+              </a>
+              <a href="/transaction.html">
+                <div class="nav-link">
+                  <p class="text-light">My Transactions</p>
+                </div>
+              </a>
+              <a href="/referalHisotry.html">
+                <div class="nav-link">
+                  <p class="text-light">Referral History</p>
+                </div>
+              </a>
+              <a href="/contactSupport.html">
+                <div class="nav-link">
+                  <p class="text-light">Contact Support</p>
+                </div>
+              </a>
+              <a href="/logut.html">
+                <div class="nav-link">
+                  <p class="text-light">Log out</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- ============= Navbar ========== -->
+    <section class="navbar-top">
+      <div class="container">
+        <div class="navbar-left">
+          <img src="/assets/vector/hamburger.svg" alt="hamburger" class="hamburger" id="btn" />
+          <img src="/assets/vector/Notification.svg" alt="Notification" class="notification" />
+          <a href="/profile.html"> <img src="/assets/image/avatar.png" alt="avatar" class="avatar" /></a>
+        </div>
+        <div class="navbar-right"></div>
+      </div>
+    </section>
+    <!-- ======= End Navbar ======== -->
+
+    <section class="jumbotron">
+      <div class="container">
+        <div class="content">
+          <p class="title">Contact Support</p>
+          <hr />
+          <div class="wrapper">
+            <div class="wrapperflex">
+              <div class="contentFill">
+                <img src="/assets/image/inbox.png" alt="img" class="inbox" />
+                <p class="writer">Support@alertnation.co.uk</p>
+              </div>
+              <div class="contentFill">
+                <img src="/assets/image/WhatsApp.png" alt="img" class="inbox" />
+                <p class="writer">Contact support Via Whatsapp</p>
+              </div>
+            </div>
+            <div class="contentFill">
+              <img src="/assets/image/Telegram.png" alt="img" class="inbox" />
+              <p class="writer">Contact support Via Whatsapp</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      let btn = document.querySelector('#btn');
+      let navbar_responsive = document.querySelector('.navbar-responsive');
+      btn.onclick = function () {
+        navbar_responsive.classList.toggle('active');
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

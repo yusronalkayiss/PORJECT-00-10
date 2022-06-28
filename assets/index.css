@@ -1,0 +1,279 @@
+@font-face {
+  font-family: 'SF UI Text Reguler';
+  src: url(/assets/SFUIText-Font/SFUIText-Regular.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  width: 428px;
+  height: 926px;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+}
+/* Navbar */
+.navbar-top {
+  width: 428px;
+  margin: auto;
+  text-align: center;
+}
+
+.navbar-top .container .navbar-left {
+  margin: 23px 0 0 28px;
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(180deg, rgba(120, 0, 0, 0.6) 0%, rgba(255, 0, 0, 0.6) 102.59%);
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+  border-radius: 7px;
+  display: flex;
+}
+.hamburger {
+  padding: 7px 4px 7px 4px;
+}
+.notification {
+  width: 17.84px;
+  height: 19.53px;
+  margin: auto !important;
+  margin-left: 264px !important;
+  float: right !important;
+}
+.avatar {
+  width: 41px;
+  margin: auto;
+  margin-left: 16px !important;
+  padding-right: 31px;
+}
+/* ====================== End Navbar ===================== */
+
+/* ====================== content ============================ */
+.content {
+  margin: auto;
+  margin-left: 12px;
+}
+.content .container .balance-info {
+  width: 402px;
+  height: 285px;
+  background: linear-gradient(180deg, #4f0000 0%, #ff0000 102.59%);
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  margin: auto;
+  border-radius: 50px;
+  color: white;
+  margin-top: 25px;
+}
+.content .container .balance-info .writer {
+  font-size: 18px;
+  font-weight: 400 !important;
+  margin: auto;
+  text-align: center;
+  padding-top: 41px;
+  letter-spacing: 0.03em;
+  font-family: 'SF UI Text Reguler';
+}
+.content .container .balance-info .title {
+  font-size: 38px;
+  margin: auto;
+  text-align: center;
+  margin-top: 7px;
+}
+.content .container .balance-info .desc {
+  font-size: 12px;
+  margin: auto;
+  text-align: center;
+  margin-top: 3px;
+  color: #ffe600;
+  letter-spacing: 0.03em;
+}
+.content .container .balance-info .balance-action {
+  display: flex;
+}
+.content .container .balance-action .deposit {
+  width: 78px;
+  height: 85px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.04) 45.05%, rgba(255, 255, 255, 0.46) 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+  border-radius: 15px;
+  margin-left: 46px;
+  margin-top: 37px;
+}
+.wrapper {
+  margin: auto;
+  display: block;
+  padding-top: 15px;
+}
+.content .container .balance-action .deposit .desc {
+  color: white;
+  margin-top: 10px;
+  letter-spacing: 0.03em;
+  font-family: 'SF UI Text Reguler';
+}
+/*====================== End Content ========================= */
+
+/* ================= History ==================== */
+.history {
+  margin-top: 33px;
+  margin-left: 14px;
+  display: flex;
+}
+
+.history .container .content {
+  width: 185px;
+  height: 65px;
+  background: linear-gradient(180.07deg, rgba(255, 255, 255, 0.165) 0.06%, rgba(255, 255, 255, 0.085) 54.47%, rgba(232, 238, 255, 0.265) 129.51%);
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  margin-top: 13px;
+}
+.activity {
+  padding-left: 11px;
+  width: 43px;
+}
+.history .container .content .title {
+  font-size: 13px;
+  width: 96px !important;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  padding-top: 5px;
+  margin-left: 5px;
+}
+span p {
+  color: #0db46d;
+  margin-top: 5px;
+  font-weight: 300;
+}
+
+.content-right {
+  width: 188px;
+  height: 143px;
+  background: linear-gradient(180.07deg, rgba(255, 255, 255, 0.165) 0.06%, rgba(255, 255, 255, 0.085) 54.47%, rgba(232, 238, 255, 0.265) 129.51%);
+  position: relative;
+  left: 205px;
+  bottom: 298px;
+  border-radius: 10px;
+  display: flex;
+  color: white;
+}
+.content-right .title {
+  font-size: 13px;
+  width: 96px !important;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  padding-top: 5px;
+  margin-left: 5px;
+}
+.content-right .activity {
+  width: 55px;
+  margin-top: -70px;
+}
+.content-right .dtl {
+  display: block;
+  margin: auto;
+  position: absolute;
+  font-size: 60px;
+  top: 65px;
+  font-family: sans-serif;
+  left: 10px;
+}
+.plap {
+  position: absolute;
+  right: 40px;
+  top: 65px;
+}
+
+.grf {
+  margin-top: -35px;
+}
+.polygon {
+  width: 8px;
+  position: relative;
+  right: 10px;
+  top: 21px;
+}
+.rincian {
+  color: #0db46d;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+.text-red {
+  color: red;
+}
+.vector-wd {
+  width: 47px;
+  padding-left: 10px;
+}
+.history .container .content-right .lwol {
+  position: absolute;
+  right: -39px;
+  top: 76px;
+}
+.history .container .content-right .content .title {
+  width: 150px !important;
+}
+.pending {
+  width: 35px;
+  margin-left: 10px;
+}
+
+/* ============================= Trade Analysis ===================== */
+.trade-analysis {
+  position: relative;
+  bottom: 130px;
+}
+
+.trade-analysis .container .content .content1 {
+  width: 396px;
+  height: 24px;
+  background: #f4f4f4;
+  border-radius: 6px;
+  text-align: center;
+  margin-top: 10px;
+}
+.col {
+  margin-top: 10px;
+}
+.trade-analysis .container .content .content1 .text-red {
+  color: red !important;
+}
+.trade-analysis .container .content .content1 .text-green {
+  color: green !important;
+}
+.trade-analysis .container .content .content2 {
+  text-align: center;
+}
+.trade-analysis .container .content .content2 .desc {
+  display: inline;
+  color: white;
+  font-size: 9px;
+  text-align: center;
+  margin-left: 30px;
+}
+.trade-analysis .container .content .title {
+  display: inline;
+  color: #2400ff;
+  font-size: 12px;
+}
+.noo {
+  margin-left: 30px !important;
+}
+.trade-analysis .container .content .no {
+  color: rgba(0, 0, 0, 0.67) !important;
+  display: inline-block;
+  font-size: 9px;
+  margin-left: 43px;
+}
+@media (min-width: 428px) {
+  @media (min-width: 428px) {
+    body {
+      margin: auto;
+      background-color: black;
+      width: 428px;
+      height: 926px;
+      text-align: center !;
+    }
+  }
+}

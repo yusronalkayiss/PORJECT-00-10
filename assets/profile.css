@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  background-color: black;
+  width: 428px;
+}
+/* Navbar */
+.navbar-top {
+  width: 428px;
+  margin: auto;
+  text-align: center;
+}
+
+.navbar-top .container .navbar-left {
+  margin: 23px 0 0 28px;
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(180deg, rgba(120, 0, 0, 0.6) 0%, rgba(255, 0, 0, 0.6) 102.59%);
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+  border-radius: 7px;
+  display: flex;
+}
+.hamburger {
+  padding: 7px 4px 7px 4px;
+}
+.notification {
+  width: 17.84px;
+  height: 19.53px;
+  margin: auto !important;
+  margin-left: 264px !important;
+  float: right !important;
+}
+.avatar {
+  width: 41px !important;
+  margin: auto;
+  margin-left: 16px !important;
+  padding-right: 31px;
+}
+/* ====================== End Navbar ===================== */
+/* ====================== content ============================ */
+.content {
+  margin: auto;
+}
+.content .container .profile-info {
+  width: 402px;
+  height: 285px;
+  background: linear-gradient(125.87deg, rgba(255, 255, 255, 0.04) 5.42%, rgba(255, 255, 255, 0.235) 89.64%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+  margin: auto;
+  border-radius: 34px;
+  color: white;
+  margin-top: 25px;
+  text-align: center;
+}
+.content .container .profile-info .desc {
+  color: #42ff00;
+  font-family: sans-serif;
+  padding-top: 24px;
+  padding-left: 34px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: start;
+}
+.content .container .profile-info .profile-avatar {
+  width: 107px;
+  height: 107px;
+  display: block;
+  margin: auto !important;
+  text-align: center !important;
+}
+.content .container .profile-info .verified {
+  width: 41px;
+  height: 21px;
+  background: linear-gradient(180deg, #00ff66 0%, #00f890 100%);
+  border-radius: 8px;
+  margin: auto;
+  position: relative;
+  bottom: 20px;
+}
+.verified p {
+  font-size: 10px;
+  padding-top: 5px;
+  color: black;
+}
+.content .container .profile-info .title {
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  margin-top: 0 !important;
+}
+.container {
+  margin: auto;
+}
+.container .fiture .content {
+  width: 401px;
+  height: 47px;
+  background: linear-gradient(177.51deg, rgba(255, 255, 255, 0.24) -9.3%, rgba(255, 255, 255, 0.115) 54.82%, rgba(255, 255, 255, 0.235) 135.18%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+  border-radius: 11px;
+  display: flex;
+  margin-top: 20px;
+}
+.container .fiture .content .title {
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 0 !important;
+  padding-top: 4px;
+  padding-left: 27px;
+  color: #ff2727;
+}
+
+.arrow {
+  width: 12px;
+  position: absolute;
+  right: 30px;
+  top: 15px;
+}
+.description {
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff !important;
+  opacity: 0.7;
+  position: absolute;
+  left: 29px;
+  top: 15px;
+}
+
+.btn-main {
+  width: 145px;
+  height: 34px;
+  background: linear-gradient(180deg, #4f0000 -32.95%, #ff0000 102.59%);
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  border-color: red !important;
+  text-align: center;
+  margin: auto;
+  margin-top: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  display: block;
+}
+/*====================== End Content ========================= */
+@media (min-width: 428px) {
+  body {
+    margin: auto;
+    background-color: black;
+    width: 428px;
+    text-align: center !;
+  }
+}
